@@ -6,7 +6,7 @@ from sklearn.linear_model import LinearRegression
 import time  # Import the time library
 
 # Load the advertising data
-data = pd.read_csv("data/advertising.csv")
+data = pd.read_csv("advertising.csv")
 
 # Create a linear regression model
 X = data[["TV"]]
